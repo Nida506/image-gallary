@@ -1,0 +1,55 @@
+.termsHeight {
+  min-height: 100vh;
+}
+.terms {
+  background-color: #121212;
+  color: white;
+}
+
+.termsSection {
+  margin-top: 40px;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 1.5rem;
+  font-weight: 400;
+}
+
+.termsSectionContent {
+  width: 85%;
+  text-align: justify;
+
+  padding: 2rem 3rem;
+  border-radius: 10px;
+}
+.bgLight {
+  background-color: rgb(241, 234, 234);
+}
+.bgDark {
+  background-color: #272727;
+  border: 1px solid blue;
+}
+
+.colorBlue {
+  color: blue;
+}
+
+.decor {
+  font-size: 1.05rem;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+.decor:hover {
+  cursor: pointer;
+}
+
+.span {
+  font-weight: 700;
+}
+
+@media (max-width: 564px) {
+  .termsSectionContent {
+    padding: 1rem 2rem;
+  }
+}

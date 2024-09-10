@@ -1,0 +1,6 @@
+{
+  "auto-commit.commitInterval": 10000, // Commit every 10 seconds
+  "auto-commit.autoPush": true,
+  "git.postCommitCommand": "push",
+  "git.ignoreLimitWarning": true // Enable auto-push
+}
