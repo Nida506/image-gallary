@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Navbar from "../components/Navbar";
-import styles from "./HomePage.module.css";
+import styles from "./Homepage.module.css";
 
 // Dynamically import all images
 const importImages = import.meta.glob("/src/assets/**/*.{png,jpg,jpeg}");
