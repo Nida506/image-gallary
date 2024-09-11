@@ -27,8 +27,8 @@
 }
 
 .pic:hover {
-  height: 215px;
-  width: 215px;
+  height: 250px;
+  width: 250px;
   box-shadow: 0px 0px 10px black;
   transform: scale(1.05);
 }

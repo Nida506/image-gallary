@@ -91,7 +91,8 @@ const HomePage = ({ setDarkMode, darkMode }) => {
                 className={`${styles.pic} ${
                   darkMode ? styles.picDarkMode : styles.picLightMode
                 }`}
-                style={{ cursor: "pointer" }} // Change cursor to pointer to indicate clickable
+                style={{ cursor: "pointer" }}
+                loading="lazy"
               />
             </a>
             <h1 className={styles.imageName}>{image.name}</h1>
